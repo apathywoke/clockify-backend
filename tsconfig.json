@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",  // выводим компилированные файлы в папку dist
+    "rootDir": "./src",  // указываем папку исходников
+    "target": "ES6",     // компиляция в ES6
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"],  // все TypeScript файлы из папки src
+  "exclude": ["node_modules"]  // исключаем папку node_modules
+}
